@@ -1,0 +1,6 @@
+// 1.21.1	2024-10-16T15:26:49.9011116	Tags for minecraft:block mod id chrispymod
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/mineable/axe.json
+dd7628d97da9be1442c83444aae5ea377ebb9407 data/minecraft/tags/block/mineable/pickaxe.json
+f08dfe8b3dfb0106218f34908494b84b364e1f1c data/minecraft/tags/block/needs_diamond_tool.json
+33dfed6c73d4b588b14be12830855cbd36a83190 data/minecraft/tags/block/needs_iron_tool.json
+f8ab6437565b988adc3b9a279e48d738ba6dec6b data/minecraft/tags/block/needs_stone_tool.json
