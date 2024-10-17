@@ -18,7 +18,7 @@ import java.util.Map;
 public class HoneyArmorItem extends ArmorItem {
     private static final Map<Holder<ArmorMaterial>, List<MobEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())
-                    .put(ModArmorMaterials.HONEY, List.of(new MobEffectInstance(MobEffects.REGENERATION, 40, 1, false, false))).build();
+                    .put(ModArmorMaterials.HONEY, List.of(new MobEffectInstance(MobEffects.REGENERATION, 60, 0, false, false))).build();
 
     public HoneyArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties);

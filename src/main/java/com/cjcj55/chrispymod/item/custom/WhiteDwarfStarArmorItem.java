@@ -18,7 +18,7 @@ import java.util.Map;
 public class WhiteDwarfStarArmorItem extends ArmorItem {
     private static final Map<Holder<ArmorMaterial>, List<MobEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())
-                    .put(ModArmorMaterials.WHITE_DWARF_STAR, List.of(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 2, false, false))).build();
+                    .put(ModArmorMaterials.WHITE_DWARF_STAR, List.of(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 2, false, false))).build();
 
     public WhiteDwarfStarArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties);

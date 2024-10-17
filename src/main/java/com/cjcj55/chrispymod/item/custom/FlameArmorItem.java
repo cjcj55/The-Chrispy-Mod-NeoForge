@@ -18,7 +18,7 @@ import java.util.Map;
 public class FlameArmorItem extends ArmorItem {
     private static final Map<Holder<ArmorMaterial>, List<MobEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())
-                    .put(ModArmorMaterials.FLAME, List.of(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 20, 1, false, false))).build();
+                    .put(ModArmorMaterials.FLAME, List.of(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 60, 0, false, false))).build();
 
     public FlameArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties);
