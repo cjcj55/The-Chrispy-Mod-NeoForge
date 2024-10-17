@@ -1,0 +1,7 @@
+// 1.21.1	2024-10-16T22:26:23.1303854	Registries
+2cb05b4afb4959c0de49bcc61c41f9ff9547d2b1 data/chrispymod/neoforge/biome_modifier/add_nether_ruby_ore.json
+2081f809c99f6f938b1abcb9cc8056d65cd7fe8d data/chrispymod/neoforge/biome_modifier/add_ruby_ore.json
+5d21ecc9f3ca3e1da02996344d719adf24b09070 data/chrispymod/worldgen/configured_feature/nether_ruby_ore.json
+337f9441f84ed4f72a2642ab90dd3422b386cc94 data/chrispymod/worldgen/configured_feature/ruby_ore.json
+5068a4bf92b16d7e5726324f731feab8b9311f68 data/chrispymod/worldgen/placed_feature/nether_ruby_ore_placed.json
+b36f02c5ad4e2d8b2bae2c83e527885b84ac0065 data/chrispymod/worldgen/placed_feature/ruby_ore_placed.json

@@ -55,17 +55,17 @@ public class ModBlocks {
     public static final DeferredBlock<Block> HELLFIRE_ORE_NETHER = registerBlock("hellfire_ore_nether", () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).strength(2.0f, 8.0f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     // BRICKS
-    public static final DeferredBlock<Block> SKINNY_SLANTED_BRICKS = registerBlock("skinny_slanted_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> SLANTED_BRICKS = registerBlock("slanted_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> SKINNY_BRICKS = registerBlock("skinny_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> CIRCULAR_BRICKS = registerBlock("circular_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> CRACKED_BRICKS = registerBlock("cracked_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> ENCASED_BRICKS = registerBlock("encased_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> MOSAIC_BRICKS = registerBlock("mosaic_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> ORNATE_BRICKS = registerBlock("ornate_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> ROAD_BRICKS = registerBlock("road_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> SOLID_BRICKS = registerBlock("solid_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> WEAVER_BRICKS = registerBlock("weaver_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get()).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> SKINNY_SLANTED_BRICKS = registerBlock("skinny_slanted_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+    public static final DeferredBlock<Block> SLANTED_BRICKS = registerBlock("slanted_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> SKINNY_BRICKS = registerBlock("skinny_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> CIRCULAR_BRICKS = registerBlock("circular_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> CRACKED_BRICKS = registerBlock("cracked_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> ENCASED_BRICKS = registerBlock("encased_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> MOSAIC_BRICKS = registerBlock("mosaic_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> ORNATE_BRICKS = registerBlock("ornate_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> ROAD_BRICKS = registerBlock("road_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> SOLID_BRICKS = registerBlock("solid_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
+    public static final DeferredBlock<Block> WEAVER_BRICKS = registerBlock("weaver_bricks", () -> new Block(BlockBehaviour.Properties.ofFullCopy(SKINNY_SLANTED_BRICKS.get())));
 
     // REDSTONE LAMPS
     public static final DeferredBlock<Block> BLACK_REDSTONE_LAMP = registerBlock("black_redstone_lamp", () -> new RedstoneLampBlock(BlockBehaviour.Properties.of().lightLevel(litBlockEmission(15)).strength(0.3F).sound(SoundType.GLASS).mapColor(MapColor.COLOR_BLACK)));

@@ -2,6 +2,7 @@ package com.cjcj55.chrispymod;
 
 import com.cjcj55.chrispymod.block.ModBlocks;
 import com.cjcj55.chrispymod.creativetab.ModCreativeModeTabs;
+import com.cjcj55.chrispymod.item.ModArmorMaterials;
 import com.cjcj55.chrispymod.item.ModItems;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
@@ -46,6 +47,8 @@ public class ChrispyMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModArmorMaterials.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
